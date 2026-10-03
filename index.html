@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Muhammad Umer | 3D Artist &amp; Game Developer</title>
+  <meta name="description" content="Blender renders, C++ and Godot projects, and open source work.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+
+  <main class="wrap">
+
+      <section class="hero" id="home">
+          <p class="eyebrow">Hi, I’m</p>
+          <h1 data-site="name">Muhammad Umer</h1>
+          <p class="role" data-site="role">3D artist, Programmer and game developer</p>
+          <p class="student">Software Engineering student at FAST-NUCES Lahore</p>
+          <p class="tagline" data-site="tagline"><strong>Blender renders, C++ and Godot projects, and open source work.</strong></p>
+          <div class="hero-actions">
+              <a class="btn btn-primary" href="work.html">View work <svg class="icon"><use href="#i-arrow" /></svg></a>
+              <a class="btn btn-ghost" href="#contact">Contact</a>
+          </div>
+      </section>
+
+    <section class="skills" aria-label="Skill set">
+      <h2>Skill set</h2>
+      <div class="chips">
+        <span class="chip"><img src="https://cdn.simpleicons.org/blender/c3a9e0" alt="" width="20" height="20">Blender</span>
+        <span class="chip"><img src="https://cdn.simpleicons.org/cplusplus/c3a9e0" alt="" width="20" height="20">C++</span>
+        <span class="chip"><img src="https://cdn.simpleicons.org/godotengine/c3a9e0" alt="" width="20" height="20">Godot</span>
+        <span class="chip"><img src="https://cdn.simpleicons.org/git/c3a9e0" alt="" width="20" height="20">Git</span>
+      </div>
+    </section>
+
+    <section class="block" id="renders">
+      <div class="block-head">
+        <h2>Renders</h2>
+        <a class="view-all" href="work.html#renders">View all <svg class="icon"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="render-grid" id="render-grid"></div>
+    </section>
+
+    <div class="split">
+      <section id="projects">
+        <div class="block-head">
+          <h2>Projects</h2>
+          <a class="view-all" href="work.html#projects">View all <svg class="icon"><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="project-list" id="project-list"></div>
+      </section>
+
+      <section class="about-brief" id="about">
+          <div class="block-head">
+              <h2>About Me</h2>
+              <a class="view-all" href="about.html">More <svg class="icon"><use href="#i-arrow" /></svg></a>
+          </div>
+          <p>
+              I’m a Software engineering student currently in my First semester at FAST-NUCES Lahore with a passion for 3D art, game development and programming.
+              I love building cool things and learning new technologies.
+          </p>
+          <p>
+              I’m currently learning Blender and getting more comfortable with 3D modeling, lighting, and rendering.
+              I’m interested in programming, especially C++, and enjoy understanding how things work behind the scenes.
+              </p>
+              <p>
+              Right now, I’m still early in the learning process, but I’m trying to improve consistently.
+              My goal is to get better at combining programming, 3D art, and game development.
+              I’m hoping to eventually turn these skills into bigger projects of my own.
+          </p>
+          <dl class="brief">
+              <dt>Studying</dt>
+              <dd>Software Engineering (expected graduation: 2030)</dd>
+              <dt>Hobbies</dt>
+              <dd>3D art, games, music, tech</dd>
+          </dl>
+      </section>
+    </div>
+
+    <section class="block" id="github" aria-label="GitHub contributions">
+      <div class="block-head"><h2>GitHub Statistics</h2></div>
+      <div class="gh">
+        <div class="gh-stats">
+          <span class="label">Contributions in the last year</span>
+          <span class="big" id="gh-total">247</span>
+          <dl>
+            <dt id="gh-issues">98</dt><dd>Issues</dd>
+            <dt id="gh-prs">42</dt><dd>Pull requests</dd>
+            <dt id="gh-commits">107</dt><dd>Commits</dd>
+          </dl>
+        </div>
+        <div class="gh-graph">
+          <div class="heat" id="heat" aria-hidden="true"></div>
+          <div class="months" id="months" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block contact-row" id="contact">
+      <div class="block-head">
+        <h2>Contact Me!</h2>
+        <span class="note">Open to projects and collaborations.</span>
+      </div>
+      <div class="contact-list" data-contact></div>
+    </section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="layout.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

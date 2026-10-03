@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | Your Name</title>
+  <meta name="description" content="About me: Software engineering student, 3D artist and game developer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="about">
+
+  <main class="wrap page">
+    <div class="page-head">
+      <h1>About me</h1>
+      <p data-site="role">3D artist and game developer</p>
+    </div>
+
+    <section class="about-top">
+      <div class="card">
+        <h2 class="card-title"><svg class="icon"><use href="#i-grad"/></svg>Education &amp; interests</h2>
+        <ul class="timeline">
+          <li>
+            <span class="dot"></span>
+            <div><b>Software Engineering</b><small>FAST-NUCES Lahore · Expected Graduation 2030</small></div>
+          </li>
+        </ul>
+        <div class="facts" style="margin-top:18px">
+          <div class="fact"><svg class="icon"><use href="#i-gamepad"/></svg>
+            <span><b>Hobbies:</b> 3D art, games, music, tech</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 class="card-title"><svg class="icon"><use href="#i-code"/></svg>What I work with</h2>
+        <div class="skill-grid">
+          <div class="skill-card">
+            <img src="https://cdn.simpleicons.org/blender/c3a9e0" alt="" width="34" height="34">
+            <div><h3>Blender</h3><p>Modeling, lighting, materials and rendering for environments and props.</p></div>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.simpleicons.org/cplusplus/c3a9e0" alt="" width="34" height="34">
+            <div><h3>C++</h3><p>Systems and game code, with a focus on clean structure and performance.</p></div>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.simpleicons.org/godotengine/c3a9e0" alt="" width="34" height="34">
+            <div><h3>Godot</h3><p>Prototyping 2D and 3D games with GDScript.</p></div>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.simpleicons.org/git/c3a9e0" alt="" width="34" height="34">
+            <div><h3>Git</h3><p>Version control, pull requests and open source collaboration.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="events" style="margin-top:22px">
+        <h2 class="card-title"><svg class="icon"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M3 10h18M8 3v4M16 3v4" /></svg>Events</h2>
+        <div class="event-list" id="event-list"></div>
+    </section>
+
+    <section class="card" id="hobbies" style="margin-top:22px">
+      <h2 class="card-title"><svg class="icon"><use href="#i-gamepad"/></svg>Hobbies</h2>
+      <!-- Click a hobby to open or close it. Add "open" to a <details> tag to have it start open. -->
+      <!-- To add a hobby, copy one <details class="hobby"> block. Write as much as you like in the <p> tags. -->
+      <div class="hobby-list">
+        <details class="hobby" open>
+          <summary>
+            <span class="hobby-icon"><svg class="icon"><use href="#i-cube"/></svg></span>
+            <h3>3D art</h3>
+            <svg class="icon chev"><use href="#i-chevron"/></svg>
+          </summary>
+          <div class="hobby-body">
+              <p>I first got into 3D art out of curiosity about how game worlds and assets are built from scratch. Right now, I'm using Blender to build my foundation—focusing heavily on low-poly modeling, UV unwrapping, and understanding lighting and composition.</p>
+              <p>My main goal is to get comfortable creating clean, optimized assets and environment pieces for interactive games. Every project is a learning experience, whether I'm working through poly-count constraints, tweaking shaders, or experimenting with hard-surface mechanics. I'm actively building up my portfolio
+              with small scene builds and props while constantly refining my workflow to bridge the gap between 3D modeling and real-time game engines.</p>
+          </div>
+        </details>
+
+        <details class="hobby">
+          <summary>
+            <span class="hobby-icon"><svg class="icon"><use href="#i-gamepad"/></svg></span>
+            <h3>Games</h3>
+            <svg class="icon chev"><use href="#i-chevron"/></svg>
+          </summary>
+          <div class="hobby-body">
+              <p>I’m a huge fan of games with strong design systems and mechanics. Whether it's tackling precise platforming in Hollow Knight, optimizing complex urban systems in
+              Cities: Skylines, figuring out orbital mechanics in Kerbal Space Program, or sharpening tactical teamwork in Rainbow Six Siege, gaming is a big source of creative inspiration for me..</p>
+              <p>Gaming is an outlet for me where i can sitback and get away from the worries of life.It is an essential part of my life that helps me grow and has
+              shaped me to become who i am.</p>
+              <p>It also started my passion for <strong>Game Development</strong></p>
+          </div>
+        </details>
+
+        <details class="hobby">
+          <summary>
+            <span class="hobby-icon"><svg class="icon"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span>
+            <h3>Music</h3>
+            <svg class="icon chev"><use href="#i-chevron"/></svg>
+          </summary>
+          <div class="hobby-body">
+              <p>Music is my main creative outlet and focus booster. Whether I'm designing, coding, or modeling, I almost always have headphones on. I gravitate toward heavy production, distinct sound design, 
+              and raw energy—frequently listening to artists like Chaar Diwaari to stay dialed in and inspired while working.</p>
+          </div>
+        </details>
+
+        <details class="hobby">
+          <summary>
+            <span class="hobby-icon"><svg class="icon"><use href="#i-code"/></svg></span>
+            <h3>Tech</h3>
+            <svg class="icon chev"><use href="#i-chevron"/></svg>
+          </summary>
+          <div class="hobby-body">
+              <p>I'm big on constantly adding new skills to my tech stack. Right now, I'm diving into 3D graphics and game development—learning 3D modeling and texturing in Blender while building mechanics and interactive systems in Godot.
+              Next on my roadmap is expanding into Unity to get hands-on experience with industry-standard production pipelines.</p>
+              <p>Currently I am stuck in tutorials as i am still in the early learning phase.I try to be consistent so i can improve myself as fast as possible. I am trying my best and hope to become <strong>The Best Of The Best</strong></p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="card contact cta" id="contact" style="margin-top:22px">
+      <h2 class="card-title"><svg class="icon"><use href="#i-send"/></svg>Get in touch</h2>
+      <p class="lead" style="margin-top:12px">Open to projects and collaborations.</p>
+      <div class="contact-list" data-contact></div>
+    </section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="layout.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

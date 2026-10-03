@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Renders &amp; Projects | Your Name</title>
+  <meta name="description" content="Blender renders and C++ / Godot projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="work">
+
+  <main class="wrap page">
+    <div class="page-head">
+      <h1>Renders &amp; Projects</h1>
+      <p>A collection of my 3D work and things I’ve built.</p>
+    </div>
+
+    <section id="renders">
+      <h2 class="section-title"><svg class="icon"><use href="#i-cube"/></svg>Renders</h2>
+      <div class="render-gallery" id="render-gallery"></div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title"><svg class="icon"><use href="#i-code"/></svg>Projects</h2>
+      <div class="filters" id="filters"></div>
+      <div class="project-grid" id="project-grid"></div>
+    </section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="layout.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
