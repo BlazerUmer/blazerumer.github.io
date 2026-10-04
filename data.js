@@ -25,10 +25,10 @@ const SITE = {
   // icon: godot | github | code | cpp | blender | git
   projects: [
     {
-      title: "Godot game",
-      desc: "A small 2D game project made with Godot.",
+      title: "Slime Fighter a Godot Game",
+      desc: "A small 2D platforming game made with Godot Called Slime Fighter.",
       tags: ["Godot", "GDScript"],
-      url: "https://github.com/yourname/godot-game",
+      url: "https://github.com/BlazerUmer/My-First-game-in-godot.-Slime-Fighter",
       icon: "godot"
     },
     {
@@ -42,7 +42,7 @@ const SITE = {
       title: "Another project",
       desc: "Coming Soon.",
       tags: ["C++", "Open Source"],
-      url: "https://github.com/yourname/another-project",
+      url: "",
       icon: "code"
     }
   ],
