@@ -17,7 +17,7 @@ const SITE = {
   // Add a render: put the image in /images and add a line here.
   renders: [
     { src: "images/render-1.png", title: "The Donut. My Very First Render.", tools: "Blender" },
-    { src: "images/render-2.png", title: "Coming Soon", tools: "Blender" },
+    { src: "images/render-2.png", title: "Cup and Vase Practise Model", tools: "Blender" },
     { src: "images/render-3.png", title: "Coming Soon", tools: "Blender" },
     { src: "images/render-4.png", title: "Coming Soon", tools: "Blender" }
   ],
