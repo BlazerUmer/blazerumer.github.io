@@ -19,7 +19,7 @@ const SITE = {
     { src: "images/render-1.png", title: "The Donut. My Very First Render.", tools: "Blender" },
     { src: "images/render-2.png", title: "A low Poly Sword in the Stone", tools: "Blender" },
     { src: "images/render-3.png", title: "Cup and Vase Practise Model", tools: "Blender" },
-    { src: "images/render-4.png", title: "Coming Soon", tools: "Blender" }
+    { src: "images/render-4.png", title: "A Brain", tools: "Blender" }
   ],
 
   // icon: godot | github | code | cpp | blender | git
