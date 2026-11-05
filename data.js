@@ -25,10 +25,10 @@ const SITE = {
   // icon: godot | github | code | cpp | blender | git
   projects: [
     {
-      title: "Slime Fighter a Godot Game",
-      desc: "A small 2D platforming game made with Godot Called Slime Fighter.",
-      tags: ["Godot", "GDScript"],
-      url: "https://github.com/BlazerUmer/My-First-game-in-godot.-Slime-Fighter",
+      title: "PikoBox",
+      desc: "A small 2D platforming game made in godot for Jam Game by Hacklub.",
+      tags: ["Godot", "GDScript","Opensource"],
+      url: "https://mrblxze.itch.io/piko-box",
       icon: "godot"
     },
     {
@@ -39,11 +39,11 @@ const SITE = {
       icon: "github"
     },
     {
-      title: "Another project",
-      desc: "Coming Soon.",
-      tags: ["C++", "Open Source"],
-      url: "",
-      icon: "code"
+      title: "Slime Fighter",
+      desc: "A 2d platforming game made using a tutorial.",
+      tags: ["Godot","GDScript"],
+      url: "https://github.com/BlazerUmer/My-First-game-in-godot.-Slime-Fighter",
+      icon: "godot"
     }
   ],
 
